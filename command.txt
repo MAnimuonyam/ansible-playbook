@@ -1,0 +1,5 @@
+ansible-playbook provision.yml \
+  -i inventory.yml \
+  --extra-vars "host=staging" \
+  -v \
+  --private-key=/home/ubuntu/ansible-playbook/your private-key pair
